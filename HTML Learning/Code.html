@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Code</title>
+</head>
+<body>
+	<pre>
+		<code>
+		public class TypeCastingTernary {
+    public static void main(String[] args) {
+
+        // (a) Implicit Type Casting
+        int num = 50;
+        double d = num;
+
+        System.out.println("Implicit Casting:");
+        System.out.println("Int = " + num);
+        System.out.println("Double = " + d);
+
+        // (b) Explicit Type Casting
+        double x = 45.89;
+        int y = (int) x;
+
+        System.out.println("\nExplicit Casting:");
+        System.out.println("Double = " + x);
+        System.out.println("Int = " + y);
+
+        // (c) Ternary Operator
+        int a = 25;
+        int b = 40;
+
+        int max = (a > b) ? a : b;
+
+        System.out.println("\nMaximum = " + max);
+    }
+}
+	</code>
+	</pre>
+</body>
+</html>
