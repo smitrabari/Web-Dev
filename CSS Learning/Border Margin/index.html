@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+  }
+
+  .margin-box {
+    background-color: #e3e0fb; /* light purple */
+    padding: 40px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .border-box {
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .padding-box {
+    background-color: #fbe1ea; /* light pink */
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .content-box {
+    background-color: #fdf3dc; /* light cream */
+    border: 1px solid black;
+    width: 250px;
+    height: 130px;
+    text-align: center;
+  }
+
+  .label {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="margin-box">
+    <div class="label">Margin</div>
+    <div class="border-box">
+      <div class="label">Border</div>
+      <div class="padding-box">
+        <div class="label">Padding</div>
+        <div class="content-box">
+          <div class="label">Content</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
