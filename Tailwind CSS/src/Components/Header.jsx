@@ -10,8 +10,40 @@ const Header = () => {
           Hoster is hiring!
         </button>
       </div>
-      <div>
-        <FaBars className="h-20 w-6" />
+      <div className="flex items-center gap-4">
+        <ul className="flex  font-lato items-center justify-center gap-4">
+        <li>
+          <a href="#">Plans</a>
+        </li>
+        <li>
+          <a href="#">Find Domain</a>
+        </li>
+        <li>
+          <a href="#">Why Hosterr</a>
+        </li>
+      </ul>
+      </div>
+      <div className="flex items-center gap-4">
+        <ul className="flex items-center
+            font-lato justify-center gap-4">
+        <li>
+          <a href="#">Sign in</a>
+        </li>
+        <li>
+          <button
+              className="bg-blue-500
+            p-3
+            rounded-sm
+            font-bold
+            text-white
+            items-center
+            justify-center
+            flex"
+            >
+              Join Waitlist
+            </button>
+        </li>
+      </ul>
       </div>
     </div>
   );
