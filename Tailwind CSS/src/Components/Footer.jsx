@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2 md:flex-row md:justify-between md:items-center">
       <ul className="flex  font-lato justify-center gap-4">
         <li>
           <a href="#">Facebook</a>
