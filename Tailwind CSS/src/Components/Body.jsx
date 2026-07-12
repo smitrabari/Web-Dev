@@ -47,11 +47,15 @@ const Body = () => {
               type="email"
               placeholder="Enter your website name"
             />
-            <button className="bg-blue-500
+            <button
+              className="bg-blue-500
             p-3
             rounded-2xl
             font-bold
-            text-white">Join Waitlist</button>
+            text-white"
+            >
+              Join Waitlist
+            </button>
           </form>
         </div>
         <div className="flex p-1 gap-1">
