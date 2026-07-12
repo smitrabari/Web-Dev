@@ -7,22 +7,22 @@ const Body = () => {
         <img
           src="Assets\Blue-Shape.svg"
           alt="Blue Shape"
-          className="-rotate-45 h-64"
+          className="-rotate-45 h-64 md:h-96"
         />
         <img
           src="Assets\Pink-Shape.svg"
           alt="Pink Shape"
-          className="absolute -rotate-30 h-64"
+          className="absolute -rotate-30 h-64 md:h-96"
         />
         <img
           src="Assets\Purple-Shape.svg"
           alt="Purple Shape"
-          className="absolute -rotate-15 h-64"
+          className="absolute -rotate-15 h-64 md:h-96"
         />
         <img
           src="Assets\Hero-Model.png"
           alt="Hero Model"
-          className="absolute h-64"
+          className="absolute h-64 md:h-96"
         />
       </div>
       <div>
