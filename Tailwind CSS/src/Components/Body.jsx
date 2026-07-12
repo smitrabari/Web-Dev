@@ -34,7 +34,7 @@ const Body = () => {
             With Hosterr, get your website up and running in no less than 5
             minutes with the most competitive pricing packages available online
           </p>
-          <form action="" className="flex flex-col gap-3.5 py-1">
+          <form action="" className="flex flex-col gap-3.5 py-1 md:flex-row">
             <input
               className="rounded-xl px-12 py-3 
               bg-gray-200
