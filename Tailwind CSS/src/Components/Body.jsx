@@ -41,7 +41,9 @@ const Body = () => {
                placeholder:text-gray-600
               placeholder:font-lato
               placeholder:text-lg
-              placeholder:text-bold"
+              placeholder:font-bold
+              placeholder:justify-center
+              items-center"
               type="email"
               placeholder="Enter your website name"
             />

@@ -15,7 +15,7 @@ const Footer = () => {
           </li>
         </ul>
 
-        <div className='flex'>
+        <div className='flex items-center gap-2'>
           <img src="Assets\Help-Avatar.svg" alt="Profile Picture" className='h-20' />
           <div className='gap-2'>
             <p className='font-lato font-bold text-lg px-1.5'>  
