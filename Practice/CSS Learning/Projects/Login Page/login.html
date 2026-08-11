@@ -59,6 +59,9 @@
         border-radius: 8px;
         font-weight: bold;
         font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       button:hover {
@@ -69,6 +72,7 @@
         display: flex;
         font-size: smaller;
         justify-content: space-between;
+        align-items: center;
         margin: 10px;
         font-weight: bold;
       }
@@ -91,8 +95,11 @@
         <a href="#">Forgot password</a>
       </div>
       <div class="button">
-        <button type="submit">Login</button>
-        <button type="submit">Sign in with Google</button>
+        <button type="submit">Create Account</button>
+        <button type="submit" style="gap: 6px">
+          <img src="google.png" alt="google logo" width="20" height="20" />
+          Sign in with Google
+        </button>
       </div>
 
       <h4>Don't have an account? <a href="sign.html">Sign up</a></h4>
