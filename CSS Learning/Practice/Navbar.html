@@ -33,7 +33,7 @@
         font-weight: bold;
       }
 
-      ul li {
+      .nav1 li {
         display: inline;
       }
 
@@ -72,6 +72,45 @@
         font-size: large;
         cursor: pointer;
       }
+
+      .nav2 {
+        background-color: yellowgreen;
+        width: 300px;
+      }
+
+      .nav2 ul {
+        list-style-type: none;
+        padding: 0;
+        width: 100%;
+      }
+
+      .nav2 li {
+        font-weight: bold;
+        margin-bottom: 2px;
+        padding: 1px 4px;
+        color: white;
+      }
+
+      .nav2 a {
+        display: block;
+        text-decoration: none;
+        padding: 5px 15px;
+        color: white;
+      }
+
+      .nav2 a:hover {
+        background-color: #1c7946;
+      }
+
+      .nav2 button {
+        padding: 5px 15px;
+        width: 100%;
+        border: none;
+        font-weight: bold;
+        background-color: #1c7946;
+        color: white;
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
@@ -84,6 +123,14 @@
           <button type="submit" class="Contact-us">Contact us</button>
         </ul>
       </nav>
+      <div class="nav2">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><button type="submit">Login</button></li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
