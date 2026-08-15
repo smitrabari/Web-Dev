@@ -123,6 +123,8 @@
       .nav3 ul {
         list-style-type: none;
         display: flex;
+        padding: 0;
+        margin: 0;
         justify-content: space-around;
         align-items: center;
       }
@@ -135,6 +137,25 @@
 
       .nav3 .dropdown {
         position: relative;
+      }
+
+      .nav3 .dropdown-content {
+        display: none;
+      }
+
+      .nav3 .dropdown:hover .dropdown-content {
+        display: block;
+        position: absolute;
+        background-color: #d4c7c7;
+        width: 200px;
+        border-radius: 5px;
+        padding: 3px;
+        font-weight: bold;
+      }
+
+      .dropdown-content:hover {
+        background-color: #000000;
+        color: white;
       }
     </style>
   </head>
