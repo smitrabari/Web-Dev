@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #fff7ef;
+  font-family: "Stack Sans Headline", sans-serif;
+}
+
+.header {
+  box-shadow: 0 4px 6px -6px #222;
+  margin: 0;
+  border-radius: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 40px;
+  /* border: 2px solid red; */
+}
+
+.header li {
+  list-style-type: none;
+  /* border: 2px solid red; */
+}
+
+.header a {
+  text-decoration: none;
+  color: #28272d;
+  padding: 5px 20px;
+  font-size: 30px;
+  /* border: 2px solid red; */
+}
+
+.navbar {
+  display: flex;
+  justify-items: end;
+  align-items: center;
+}
+
+.navbar .options {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  /* border: 2px solid red; */
+}
+
+.header .logo-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* border: 2px solid red; */
+}
+
+.logo-header .homelogo {
+  width: 120px;
+  border-radius: 50%;
+  /* border: 2px solid red; */
+}
+
+.logo-header .hometextlogo {
+  width: 150px;
+  /* border: 2px solid red; */
+}
+
+button {
+  background-color: #8e55c2;
+  color: #ffffff;
+  padding: 8px 35px;
+  border: none;
+  border-radius: 28px;
+  font-size: 30px;
+  cursor: pointer;
+}
