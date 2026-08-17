@@ -12,22 +12,30 @@
         padding: 0;
         background-color: rgb(27, 26, 26);
         height: 100%;
+        width: 100%;
         font-family: "Inconsolata", monospace;
       }
       .container {
         /* border: 2px solid red; */
-        display: flex;
+        display: grid;
+        grid-template-areas: "smit inflictt alex";
+        margin: 0px;
         justify-content: center;
         align-items: center;
+        gap: 70px;
         padding: 50px;
         height: 100%;
       }
 
       .container .card {
         /* border: 2px solid red; */
+        display: grid;
+        justify-content: center;
+        align-items: center;
         border-radius: 18px;
         padding: 30px;
         background-color: beige;
+        width: fit-content;
       }
 
       .card img {
@@ -56,12 +64,30 @@
   </head>
   <body>
     <div class="container">
-      <div class="card">
+      <div class="card" style="grid-area: smit">
         <img src="Pixel type Art.png" alt="my pfp" />
         <h1>Smit Rabari</h1>
         <h3>Software Engineer @ Google</h3>
         <p>
           smitrabari18@gmail.com <br />
+          +91 1234567890
+        </p>
+      </div>
+      <div class="card" style="grid-area: inflictt">
+        <img src="Inflictt.jpg" alt="inflictt pfp" />
+        <h1>Inflictt</h1>
+        <h3>Software Engineer @ Google</h3>
+        <p>
+          inflictt@gmail.com <br />
+          +91 1234567890
+        </p>
+      </div>
+      <div class="card" style="grid-area: alex">
+        <img src="Alex Carter.png" alt="Alex Carter pfp" />
+        <h1>Alex Carter</h1>
+        <h3>Software Engineer @ Google</h3>
+        <p>
+          alexcarter@gmail.com <br />
           +91 1234567890
         </p>
       </div>
