@@ -38,6 +38,15 @@
         width: fit-content;
       }
 
+      @media (max-width: 575px) {
+        body,
+        html {
+          width: 575px;
+          display: grid;
+          grid-template-areas: "smit" "inflictt" "alex";
+        }
+      }
+
       .card img {
         width: 300px;
         box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, 0.3);
