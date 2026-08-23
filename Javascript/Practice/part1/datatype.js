@@ -12,3 +12,6 @@ console.log(typeof city); //represent the datatype
 
 let selectcourse = null; //NULL
 console.log(typeof selectcourse); //represent the datatype
+
+let bigNumber = 90349872848920487623n; //BigInt
+console.log(typeof bigNumber); //represent the datatype
