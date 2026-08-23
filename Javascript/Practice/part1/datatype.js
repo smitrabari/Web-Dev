@@ -9,3 +9,6 @@ console.log(typeof isstudent); //represent the datatype
 
 let city; //Undefined
 console.log(typeof city); //represent the datatype
+
+let selectcourse = null; //NULL
+console.log(typeof selectcourse); //represent the datatype
