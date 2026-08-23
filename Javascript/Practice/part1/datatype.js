@@ -18,3 +18,6 @@ console.log(typeof bigNumber); //represent the datatype
 
 let skills = ["C++", "DSA", "JS"]; //Object
 console.log(typeof skills); //represent the datatype
+
+const username = "smittrabarii"; //Constant
+// username = "smittt._.18";
