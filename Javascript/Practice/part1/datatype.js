@@ -15,3 +15,6 @@ console.log(typeof selectcourse); //represent the datatype
 
 let bigNumber = 90349872848920487623n; //BigInt
 console.log(typeof bigNumber); //represent the datatype
+
+let skills = ["C++", "DSA", "JS"]; //Object
+console.log(typeof skills); //represent the datatype
