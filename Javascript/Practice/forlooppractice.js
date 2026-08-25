@@ -20,4 +20,4 @@ for (const mytea of coffee) {
   shortcoffee.push(mytea);
 }
 
-console.log(shortcoffee);
+// console.log(shortcoffee);
