@@ -8,4 +8,16 @@ for (let i = 0; i < array.length; i++) {
   doublearray.push(array[i]);
 }
 
-console.log(doublearray);
+// console.log(doublearray);
+
+let coffee = ["chai", "green tea", "black tea", "jasmine tea", "herbal tea"];
+let shortcoffee = [];
+
+for (const mytea of coffee) {
+  if (mytea.length > 10) {
+    break;
+  }
+  shortcoffee.push(mytea);
+}
+
+console.log(shortcoffee);
