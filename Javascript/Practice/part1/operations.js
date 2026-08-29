@@ -4,3 +4,5 @@ const num2 = 10;
 console.log(num1 + num2);
 // subtract
 console.log(num1 - num2);
+// multiplication
+console.log(num1 * num2);
