@@ -8,3 +8,5 @@ console.log(num1 - num2);
 console.log(num1 * num2);
 // division
 console.log(num1 / num2);
+// remainder
+console.log(num1 % num2);
