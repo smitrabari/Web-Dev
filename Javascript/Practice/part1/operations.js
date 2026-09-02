@@ -10,3 +10,5 @@ console.log(num1 * num2);
 console.log(num1 / num2);
 // remainder
 console.log(num1 % num2);
+// exponentiation
+console.log(num1 ** num2);
