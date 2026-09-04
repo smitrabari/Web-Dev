@@ -42,4 +42,4 @@ function Drink(name) {
   this.name = name;
 }
 
-let chai = Drink("Chai");
+// let chai = Drink("Chai");
