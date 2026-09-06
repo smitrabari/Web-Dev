@@ -9,3 +9,9 @@ document.getElementById("button2").addEventListener("click", function () {
   let cities = document.getElementById("list1");
   cities.firstElementChild.classList.add("highlight");
 });
+
+// exercise 3
+document.getElementById("changeOrder").addEventListener("click", function () {
+  let coffetype = document.getElementById("coffeeType");
+  coffetype.textContent = "espresso";
+});
