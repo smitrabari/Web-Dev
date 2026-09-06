@@ -53,3 +53,9 @@ document
     document.getElementById("feedbackDisplay").textContent =
       `Your Feedback is: ${feedbackinput}`;
   });
+
+// esercise 9
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("domStatus").textContent =
+    "DOM is fully loaded and parsed.";
+});
