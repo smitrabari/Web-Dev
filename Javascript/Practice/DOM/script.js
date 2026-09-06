@@ -22,3 +22,10 @@ document.getElementById("addNewItem").addEventListener("click", function () {
   newitem.textContent = "Eggs";
   document.getElementById("shoppingList").appendChild(newitem);
 });
+
+// exercise 5
+document
+  .getElementById("removeLastTask")
+  .addEventListener("click", function () {
+    document.getElementById("taskList").lastElementChild.remove();
+  });
