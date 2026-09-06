@@ -59,3 +59,11 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("domStatus").textContent =
     "DOM is fully loaded and parsed.";
 });
+
+// exercise 10
+document
+  .getElementById("toggleHighlight")
+  .addEventListener("click", function () {
+    let highlightedText = document.getElementById("descriptionText");
+    highlightedText.classList.toggle("highlight");
+  });
