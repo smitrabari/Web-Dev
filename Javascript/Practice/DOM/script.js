@@ -43,3 +43,13 @@ document.getElementById("teaList").addEventListener("click", function (event) {
     alert("You selected: " + event.target.textContent);
   }
 });
+
+// exercise 8
+document
+  .getElementById("feedbackForm")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
+    let feedbackinput = document.getElementById("feedbackInput").value;
+    document.getElementById("feedbackDisplay").textContent =
+      `Your Feedback is: ${feedbackinput}`;
+  });
