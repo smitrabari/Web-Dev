@@ -15,3 +15,10 @@ document.getElementById("changeOrder").addEventListener("click", function () {
   let coffetype = document.getElementById("coffeeType");
   coffetype.textContent = "espresso";
 });
+
+// exercise 4
+document.getElementById("addNewItem").addEventListener("click", function () {
+  let newitem = document.createElement("li");
+  newitem.textContent = "Eggs";
+  document.getElementById("shoppingList").appendChild(newitem);
+});
