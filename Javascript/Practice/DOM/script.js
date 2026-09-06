@@ -29,3 +29,10 @@ document
   .addEventListener("click", function () {
     document.getElementById("taskList").lastElementChild.remove();
   });
+
+//   exercise 6
+document
+  .getElementById("clickMeButton")
+  .addEventListener("dblclick", function () {
+    alert("Hello! You double clicked the button.");
+  });
